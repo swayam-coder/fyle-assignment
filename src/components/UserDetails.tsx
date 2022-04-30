@@ -18,12 +18,11 @@ export default function UserDetails ({ usercontext }: { usercontext: IUserContex
             <p>{bio}</p>
             <p>{location}</p>
             <a href={`https://twitter.com/${twitter_username}`}>
-                {twitter_username && `Twitter: https://twitter.com/
-                ${twitter_username}`}
+                {twitter_username && <i className="bi bi-twitter"></i>} {twitter_username && `https://twitter.com/${twitter_username}`}
             </a>
           </div>
         </div>
-        <a className="githuburl" href={html_url}>{html_url}</a>
+        <a className="githuburl" href={html_url}><i className="bi bi-github"></i> {html_url}</a>
         </>
     );
 }
