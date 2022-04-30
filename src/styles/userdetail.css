@@ -1,0 +1,21 @@
+@import "./global.css";
+
+.userinfo {
+    display: flex;
+    flex-direction: row;
+    padding: 40px 50px 0px 50px;
+}
+
+.userdetails {
+    padding-left: 100px;
+}
+
+.githuburl {
+    position: relative;
+    padding: 50px;
+    top: 10px;
+}
+
+.image {
+    border-radius: 50%;
+}

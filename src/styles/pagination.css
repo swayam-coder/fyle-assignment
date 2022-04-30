@@ -1,0 +1,10 @@
+.pagination {
+    padding-left: 50px;
+}
+
+.norepo {
+    text-align: center;
+    color: gray;
+    position: relative;
+    top: 100px;
+}

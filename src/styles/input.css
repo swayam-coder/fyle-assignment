@@ -1,0 +1,13 @@
+@import "./global.css";
+
+.wrapper {
+    padding: 200px;
+}
+
+.wrapper > h2 {
+    text-align: center;
+}
+
+.wrapper fieldset {
+    margin: 20px 0;
+}
