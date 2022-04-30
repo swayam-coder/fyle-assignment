@@ -9,7 +9,7 @@
 * Each page contains 6 repos and the other repositories are paginated.
 
 ## Important Info
-* I haven't used Redux persist, localStorage etc. to persist user results so reloading the listing page will erase the current state and redirect the user to input page (implemented using wouter: a routing library for React)
+* I haven't used Redux persist, localStorage etc. to persist user results, so reloading the listing page should erase the current local states and redirect the user to the input page (implemented using wouter: a routing library for React) and it does redirect to the input page in local environment BUT after post deployment it shows some error when you try to reload the listing page, so it is suggested to not reload at the listing page but rather manually go to the "/" route from the browser url bar. 
 
 ## Technologies Used
 * React + TypeScript (API Routes, Edge Middlewares)
