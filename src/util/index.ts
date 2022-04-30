@@ -12,7 +12,7 @@ export async function getInfo(url: string, type: string) {
     return await response.json()
   } catch (error) {
     if(type === REQUESTS.GET_USER_INFO && error instanceof Error && error.message.localeCompare("Not Found")) {
-      toast.error("Not Found", {
+      toast.error("User Not Found", {
         style: {
           background: "red",
           color: "white"
