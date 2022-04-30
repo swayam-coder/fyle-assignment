@@ -1,6 +1,6 @@
 # Github Repository Listing
 #### A Frontend Developer Assignment by Fyle
-#### Deployed Site on Netlify: https://memories-project-swayam.netlify.app/
+#### Deployed Site on Netlify: https://genuine-cucurucho-2fdb37.netlify.app/
 
 ## How it works
 * User Enters a username 
