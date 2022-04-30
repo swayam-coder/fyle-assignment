@@ -10,6 +10,7 @@
 
 ## Important Info
 * I haven't used Redux persist, localStorage etc. to persist user results, so reloading the listing page should erase the current local states and redirect the user to the input page (implemented using wouter: a routing library for React) and it does redirect to the input page in local environment BUT post deployment it shows some error when you try to reload the listing page, so it is suggested to not reload at the listing page but rather manually go to the "/" route from the browser url bar. 
+* The website is not mobile responsive, opening it in desktop/laptop is suggested.
 
 ## Technologies Used
 * React + TypeScript (API Routes, Edge Middlewares)
