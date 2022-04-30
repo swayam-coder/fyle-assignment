@@ -1,0 +1,39 @@
+{
+  "name": "react-typescript",
+  "version": "1.0.0",
+  "description": "React and TypeScript example starter project",
+  "private": true,
+  "keywords": [
+    "typescript",
+    "react",
+    "starter"
+  ],
+  "dependencies": {
+    "@mantine/core": "4.2.1",
+    "@mantine/hooks": "4.2.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hot-toast": "2.2.0",
+    "react-scripts": "^4.0.3",
+    "uuid": "^8.3.2",
+    "wouter": "2.8.0-alpha.2"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.20",
+    "@types/react-dom": "^17.0.9",
+    "@types/uuid": "^8.3.4",
+    "typescript": "4.4.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
