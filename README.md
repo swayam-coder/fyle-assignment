@@ -13,7 +13,7 @@
 * The website is not mobile responsive, opening it in desktop/laptop is suggested.
 
 ## Technologies Used
-* React + TypeScript (API Routes, Edge Middlewares)
+* React + TypeScript
 * State management is done through useContext.
 * Wouter: A lightweight routing library for React: Alternative to react-router for small projects ([see here](https://bundlephobia.com/package/wouter@2.8.0-alpha.2))
 * Mantine: For styling ([see here](https://mantine.dev/))
