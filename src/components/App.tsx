@@ -1,7 +1,6 @@
 import React from "react"
 import { Route } from "wouter";
 import ContextProvider from "../contexts/user";
-
 const Input = React.lazy(() => import("./Input")) 
 const Profile = React.lazy(() => import("./Profile"))
 
