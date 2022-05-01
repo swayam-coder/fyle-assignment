@@ -1,5 +1,19 @@
 import toast from "react-hot-toast";
-import { REQUESTS } from "src/types";
+import { IToasts, REQUESTS } from "src/types";
+
+export const toastify: IToasts = {
+  success: (message: string) => toast.success(message),
+  error: (message: string) => toast.error(message, {
+    style: {
+      background: "red",
+      color: "white"
+    },
+    iconTheme: {
+      secondary: "red",
+      primary: "white"
+    }
+  }),
+}
 
 export async function getInfo(url: string, type: string) {
   try {
@@ -12,19 +26,11 @@ export async function getInfo(url: string, type: string) {
     return await response.json()
   } catch (error) {
     if(type === REQUESTS.GET_USER_INFO && error instanceof Error && error.message.localeCompare("Not Found")) {
-      toast.error("User Not Found", {
-        style: {
-          background: "red",
-          color: "white"
-        },
-        iconTheme: {
-          secondary: "red",
-          primary: "white"
-        }
-      })
+      toastify.error("User not found");
     } else {
-      toast.error("Something wrong happened");
+      toastify.error("Something wrong happened");
     }
+    
     console.log(error);
   }
 }
