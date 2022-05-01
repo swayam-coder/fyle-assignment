@@ -15,3 +15,8 @@ export enum REQUESTS {
   GET_USER_INFO = "GET_USER_INFO",
   GET_REPO_INFO = "GET_REPO_INFO",
 }
+
+export interface IToasts {
+  success: (message: string) => void;
+  error: (message: string) => void;
+}
